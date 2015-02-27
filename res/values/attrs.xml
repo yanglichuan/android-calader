@@ -1,0 +1,12 @@
+<resources>
+
+    <declare-styleable name="MyCalaryView">
+        <attr name="week_title_h" format="dimension" />
+        <attr name="day_h" format="dimension" />
+        <attr name="textsize1" format="dimension" />
+        <attr name="textsize2" format="dimension" />
+        <attr name="weekTitleSize1" format="dimension" />
+        <attr name="weekTitleSize2" format="dimension" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ylc="http://schemas.android.com/apk/res/com.example.bittt4"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    <com.example.bittt4.MyCalaryView
+        android:id="@+id/mycalary"
+        android:layout_width="match_parent"
+        ylc:week_title_h="80dp"
+        ylc:day_h="50dp"
+        ylc:textsize1="20sp"
+        ylc:textsize2="10sp"
+        ylc:weekTitleSize1="20sp"
+        ylc:weekTitleSize2="20sp"
+        android:layout_height="match_parent" >
+    </com.example.bittt4.MyCalaryView>
+</RelativeLayout>
